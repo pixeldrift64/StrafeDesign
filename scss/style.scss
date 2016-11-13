@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 
+h1 {
+  font-family: 'Karla';
+}
+
 .jumbotron {
   padding-top: 0;
+  margin-bottom: 0;
   height: 547px;
   background-image: url('images/hero_image.png');
   background-size: 100%;
@@ -10,10 +15,9 @@
   h1 {
     max-width: 648px;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 110px;
     font-weight: bold;
     font-size: 58px;
-    font-family: 'Karla';
     text-transform: uppercase;
     line-height: 60px;
   }
@@ -23,7 +27,7 @@
     border: 4px solid #fff;
     text-transform: uppercase;
     box-shadow: none;
-    font-family: Karla;
+    font-family: 'Karla';
     font-size: 13px;
     padding: 9px;
     width: 141px;
@@ -34,5 +38,41 @@
     margin: 0 auto;
     padding: 26px;
     font-size: 20px;
+  }
+  nav.navbar {
+    padding-top: 20px;
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    ul.nav {
+      margin-left: 40px;
+      a {
+        font-family: 'Karla';
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+    ul.nav.navbar-right a {
+      text-decoration: underline;
+    }
+    a.navbar-brand {
+      padding: 0;
+      img {
+        max-height: 100%;
+      }
+    }
+  }
+}
+
+.section-services {
+  background-color: #374252;
+  h1 {
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 }

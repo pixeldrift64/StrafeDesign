@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Karla");
+h1 {
+  font-family: 'Karla'; }
+
 .jumbotron {
   padding-top: 0;
+  margin-bottom: 0;
   height: 547px;
   background-image: url("images/hero_image.png");
   background-size: 100%;
@@ -9,10 +13,9 @@
   .jumbotron h1 {
     max-width: 648px;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 110px;
     font-weight: bold;
     font-size: 58px;
-    font-family: 'Karla';
     text-transform: uppercase;
     line-height: 60px; }
   .jumbotron a.btn {
@@ -21,7 +24,7 @@
     border: 4px solid #fff;
     text-transform: uppercase;
     box-shadow: none;
-    font-family: Karla;
+    font-family: 'Karla';
     font-size: 13px;
     padding: 9px;
     width: 141px;
@@ -31,5 +34,33 @@
     margin: 0 auto;
     padding: 26px;
     font-size: 20px; }
+  .jumbotron nav.navbar {
+    padding-top: 20px;
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none; }
+    .jumbotron nav.navbar ul.nav {
+      margin-left: 40px; }
+      .jumbotron nav.navbar ul.nav a {
+        font-family: 'Karla';
+        color: #fff;
+        text-transform: uppercase; }
+    .jumbotron nav.navbar ul.nav.navbar-right a {
+      text-decoration: underline; }
+    .jumbotron nav.navbar a.navbar-brand {
+      padding: 0; }
+      .jumbotron nav.navbar a.navbar-brand img {
+        max-height: 100%; }
+
+.section-services {
+  background-color: #374252; }
+  .section-services h1 {
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
