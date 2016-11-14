@@ -94,4 +94,40 @@ h1 {
       background-repeat: no-repeat;
       background-size: 100%; }
 
+.section-how-it-works h1 {
+  padding: 50px 0;
+  color: #374252;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase; }
+.section-how-it-works .rounded-block {
+  margin: 0 auto;
+  border: 6px solid;
+  border-radius: 100px;
+  margin-bottom: 15px;
+  padding: 0 50px;
+  height: 118px;
+  border-color: #dedfdf;
+  color: #dedfdf; }
+  .section-how-it-works .rounded-block.active {
+    border-color: #25bea1;
+    color: #25bea1; }
+  .section-how-it-works .rounded-block.block-1 {
+    width: 925px; }
+  .section-how-it-works .rounded-block.block-2 {
+    width: 825px; }
+  .section-how-it-works .rounded-block.block-3 {
+    width: 725px; }
+  .section-how-it-works .rounded-block.block-4 {
+    width: 625px; }
+  .section-how-it-works .rounded-block.block-5 {
+    width: 525px; }
+  .section-how-it-works .rounded-block h2 {
+    font-family: 'Karla';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

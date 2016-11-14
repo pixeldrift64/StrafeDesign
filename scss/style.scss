@@ -116,3 +116,50 @@ h1 {
     }
   }
 }
+
+.section-how-it-works {
+  h1 {
+    padding: 50px 0;
+    color: #374252;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .rounded-block {
+    margin: 0 auto;
+    border: 6px solid;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    padding: 0 50px;
+    height: 118px;
+    border-color: #dedfdf;
+    color: #dedfdf;
+    &.active {
+      border-color: #25bea1;
+      color: #25bea1;
+    }
+    &.block-1 {
+      width: 925px;
+    }
+    &.block-2 {
+      width: 825px;
+    }
+    &.block-3 {
+      width: 725px;
+    }
+    &.block-4 {
+      width: 625px;
+    }
+    &.block-5 {
+      width: 525px;
+    }
+    h2 {
+      font-family: 'Karla';
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 60px;
+      text-align: center;
+    }
+  }
+}
