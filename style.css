@@ -45,7 +45,8 @@ h1 {
       .jumbotron nav.navbar ul.nav a {
         font-family: 'Karla';
         color: #fff;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        padding: 14px 34px; }
     .jumbotron nav.navbar ul.nav.navbar-right a {
       text-decoration: underline; }
     .jumbotron nav.navbar a.navbar-brand {
@@ -56,11 +57,41 @@ h1 {
 .section-services {
   background-color: #374252; }
   .section-services h1 {
-    padding: 50px;
+    padding: 50px 0 0 0;
     color: #fff;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     text-transform: uppercase; }
+  .section-services .row {
+    padding: 50px; }
+  .section-services .col-sm-6 {
+    padding: 0 45px; }
+    .section-services .col-sm-6 h2 {
+      color: #fff;
+      font-family: 'Karla';
+      text-transform: uppercase;
+      padding-top: 3px; }
+    .section-services .col-sm-6 p {
+      padding-top: 20px;
+      color: #fff; }
+    .section-services .col-sm-6 div {
+      padding: 0px 0px 0px 85px; }
+    .section-services .col-sm-6 .services-one {
+      background: url("images/services_one.png");
+      background-repeat: no-repeat;
+      background-size: 100%; }
+    .section-services .col-sm-6 .services-two {
+      background: url("images/services_two.png");
+      background-repeat: no-repeat;
+      background-size: 100%; }
+    .section-services .col-sm-6 .services-three {
+      background: url("images/services_three.png");
+      background-repeat: no-repeat;
+      background-size: 100%; }
+    .section-services .col-sm-6 .services-four {
+      background: url("images/services_four.png");
+      background-repeat: no-repeat;
+      background-size: 100%; }
 
 /*# sourceMappingURL=style.css.map */
