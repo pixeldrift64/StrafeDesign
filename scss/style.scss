@@ -284,4 +284,28 @@ h1 {
 
 .section-map {
   padding: 0;
+  iframe {
+    pointer-events: none;
+  }
+}
+
+.section-footer {
+  padding: 0;
+  .footer-main {
+    background-color: #374252;
+    height: 100px;
+    .social {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+  .footer-menu {
+    background-color: #2c3542;
+    height: 50px;
+    color: #fff;
+  }
 }
