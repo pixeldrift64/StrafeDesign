@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Karla");
+@font-face {
+  font-family: AGaramondPro-Italic;
+  src: url("AGaramondPro-Italic.otf") format("opentype"); }
+@font-face {
+  font-family: AGaramondPro-Regular;
+  src: url("AGaramondPro-Regular.otf") format("opentype"); }
 h1 {
   font-family: 'Karla'; }
 
@@ -30,10 +36,11 @@ h1 {
     width: 141px;
     margin-top: 18px; }
   .jumbotron p.tagline {
-    max-width: 534px;
+    max-width: 465px;
     margin: 0 auto;
     padding: 26px;
-    font-size: 20px; }
+    font-family: 'AGaramondPro-Italic';
+    font-size: 22px; }
   .jumbotron nav.navbar {
     padding-top: 20px;
     border: none;
@@ -62,11 +69,12 @@ h1 {
     text-align: center;
     font-size: 60px;
     font-weight: bold;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 50px; }
   .section-services .row {
-    padding: 50px; }
+    padding: 0 50px 50px 50px; }
   .section-services .col-sm-6 {
-    padding: 0 45px; }
+    padding: 0 50px; }
     .section-services .col-sm-6 h2 {
       color: #fff;
       font-family: 'Karla';
@@ -74,9 +82,11 @@ h1 {
       padding-top: 3px; }
     .section-services .col-sm-6 p {
       padding-top: 20px;
+      font-size: 17px;
       color: #fff; }
     .section-services .col-sm-6 div {
-      padding: 0px 0px 0px 85px; }
+      padding: 0px 0px 0px 85px;
+      font-family: 'AGaramondPro-Regular'; }
     .section-services .col-sm-6 .services-one {
       background: url("images/services_one.png");
       background-repeat: no-repeat;
@@ -135,7 +145,8 @@ h1 {
       position: relative;
       top: 50%;
       transform: translateY(-50%);
-      text-align: center; }
+      text-align: center;
+      font-family: 'AGaramondPro-Regular'; }
 
 .section-case-studies .col-md-6 {
   height: 337px;
