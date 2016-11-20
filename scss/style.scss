@@ -161,5 +161,14 @@ h1 {
       font-size: 60px;
       text-align: center;
     }
+    .col-sm-8 {
+      height: 106px;
+      p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+      }
+    }
   }
 }
