@@ -365,8 +365,8 @@ h1 {
 
 .section-map {
   padding: 0;
-  iframe {
-    pointer-events: none;
+  #map {
+    height: 450px;
   }
 }
 

@@ -290,8 +290,8 @@ h1 {
 
 .section-map {
   padding: 0; }
-  .section-map iframe {
-    pointer-events: none; }
+  .section-map #map {
+    height: 450px; }
 
 .section-footer {
   padding: 0; }
