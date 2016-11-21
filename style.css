@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Karla");
 @font-face {
   font-family: AGaramondPro-Italic;
-  src: url("AGaramondPro-Italic.otf") format("opentype"); }
+  src: url("fonts/AGaramondPro-Italic.otf") format("opentype"); }
 @font-face {
   font-family: AGaramondPro-Regular;
-  src: url("AGaramondPro-Regular.otf") format("opentype"); }
+  src: url("fonts/AGaramondPro-Regular.otf") format("opentype"); }
 h1 {
   font-family: 'Karla'; }
 
