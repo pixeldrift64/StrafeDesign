@@ -146,6 +146,9 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
   }
+  .container {
+    margin-bottom: 100px;
+  }
   .rounded-block {
     margin: 0 auto;
     border: 6px solid;
@@ -155,9 +158,15 @@ h1 {
     height: 118px;
     border-color: #dedfdf;
     color: #dedfdf;
+    cursor: pointer;
     &.active {
       border-color: #25bea1;
-      color: #25bea1;
+      h2 {
+        color: #25bea1;
+      }
+      p {
+        color: #000;
+      }
     }
     &.block-1 {
       width: 925px;
@@ -187,8 +196,9 @@ h1 {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        text-align: center;
+        text-align: left;
         font-family: 'AGaramondPro-Regular';
+        font-size: 15px;
       }
     }
   }
