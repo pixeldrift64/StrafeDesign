@@ -398,5 +398,40 @@ h1 {
     background-color: #2c3542;
     height: 50px;
     color: #fff;
+    font-family: 'Karla';
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    .copyright {
+      height: 50px;
+      p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      b {
+        color: #25bea1;
+        margin: 0 10px;
+      }
+    }
+    .menu {
+      ul {
+        float: right;
+        margin: 0;
+        height: 50px;
+        li {
+          margin-left: 15px;
+          float: left;
+          list-style-type: none;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          b {
+            margin: 0 0 0 3px;
+            color: #25bea1;
+          }
+        }
+      }
+    }
   }
 }
