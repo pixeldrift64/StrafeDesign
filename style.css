@@ -363,5 +363,7 @@ h1 {
         .section-footer .footer-menu .menu ul li b {
           margin: 0 0 0 3px;
           color: #25bea1; }
+        .section-footer .footer-menu .menu ul li a {
+          color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
