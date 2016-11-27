@@ -149,13 +149,17 @@ h1 {
     .section-how-it-works .rounded-block.active p {
       color: #000; }
   .section-how-it-works .rounded-block.block-1 {
-    width: 925px; }
+    width: 925px;
+    max-width: 100%; }
   .section-how-it-works .rounded-block.block-2 {
-    width: 825px; }
+    width: 825px;
+    max-width: 100%; }
   .section-how-it-works .rounded-block.block-3 {
-    width: 725px; }
+    width: 725px;
+    max-width: 100%; }
   .section-how-it-works .rounded-block.block-4 {
-    width: 625px; }
+    width: 625px;
+    max-width: 100%; }
   .section-how-it-works .rounded-block.block-5 {
     width: 525px; }
   .section-how-it-works .rounded-block h2 {

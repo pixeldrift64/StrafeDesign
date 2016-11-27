@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 
+@import "responsive";
+
 @font-face {
   font-family: AGaramondPro-Italic;
   src: url("fonts/AGaramondPro-Italic.otf") format("opentype");
@@ -187,15 +189,19 @@ h1 {
     }
     &.block-1 {
       width: 925px;
+      max-width: 100%;
     }
     &.block-2 {
       width: 825px;
+      max-width: 100%;
     }
     &.block-3 {
       width: 725px;
+      max-width: 100%;
     }
     &.block-4 {
       width: 625px;
+      max-width: 100%;
     }
     &.block-5 {
       width: 525px;
