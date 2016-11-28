@@ -5,4 +5,9 @@ $('.rounded-block').hover(function() {
   $(this).addClass('active');
 });
 
+$('.case-study-content').on("tap", function() {
+  $('.case-study-content').removeClass('active');
+  $(this).addClass('active');
+});
+
 });
