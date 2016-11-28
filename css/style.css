@@ -434,8 +434,7 @@ h1 {
   .section-services .col-md-6 {
     padding: 0; }
     .section-services .col-md-6 div {
-      padding: 0;
-      background-image: none !important; }
+      padding: 0; }
     .section-services .col-md-6 h2 {
       padding-top: 0;
       border-bottom: 2px solid #25bea1; }
