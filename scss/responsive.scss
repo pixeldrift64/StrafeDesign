@@ -2,6 +2,7 @@
 @media screen and (max-width: 1200px) {
 
   .jumbotron {
+    background-position: center bottom;
     nav.navbar ul.nav {
       margin-left: 0;
     }
@@ -24,6 +25,18 @@
 
 @media screen and (max-width: 992px) {
 
+  .navbar-collapse {
+    border: 0;
+    box-shadow: none;
+  }
+
+  .section-services .container {
+    padding-bottom: 50px;
+    .row {
+      padding: 0 50px 0px 50px;
+    }
+  }
+  
   .section-services .col-md-6 h2,
   .section-services .col-md-6 p {
     padding-top: 16px;
@@ -39,7 +52,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
   .section-services .col-md-6 {
     h2 {

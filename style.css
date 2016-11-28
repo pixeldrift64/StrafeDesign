@@ -12,14 +12,18 @@ h1 {
   padding-top: 0;
   margin-bottom: 0;
   min-height: 547px;
-  background-image: url("images/hero_image.png");
-  background-size: 100%;
+  background-image: url(images/hero_image.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  background-attachment: fixed;
+  background-color: #23ac92;
   color: #fff;
   text-align: center; }
   .jumbotron h1 {
     max-width: 648px;
     margin: 0 auto;
-    margin-top: 110px;
+    margin-top: 100px;
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 56px;
@@ -373,8 +377,10 @@ h1 {
           color: #fff; }
 
 @media screen and (max-width: 1200px) {
-  .jumbotron nav.navbar ul.nav {
-    margin-left: 0; }
+  .jumbotron {
+    background-position: center bottom; }
+    .jumbotron nav.navbar ul.nav {
+      margin-left: 0; }
 
   .section-services .col-md-6 h2, .section-services .col-md-6 p {
     padding-top: 0; }
@@ -384,6 +390,15 @@ h1 {
     .section-case-studies .col-md-6 .case-study-content .figures p {
       font-size: 16px; } }
 @media screen and (max-width: 992px) {
+  .navbar-collapse {
+    border: 0;
+    box-shadow: none; }
+
+  .section-services .container {
+    padding-bottom: 50px; }
+    .section-services .container .row {
+      padding: 0 50px 0px 50px; }
+
   .section-services .col-md-6 h2,
   .section-services .col-md-6 p {
     padding-top: 16px; }
@@ -393,7 +408,7 @@ h1 {
     padding: 0; }
     .section-footer .footer-menu .menu ul li {
       margin: 0 15px 0 0; } }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .section-services .col-md-6 h2 {
     padding-top: 0; }
   .section-services .col-md-6 p {
