@@ -1,3 +1,11 @@
+/**
+ * Style.scss
+ *
+ * Main stylesheet for the one page template. Uses bootstrap as a base, and a
+ * couple of embedded fonts. Compiled using SASS.
+ *
+ */
+
 @import url('https://fonts.googleapis.com/css?family=Karla');
 
 @font-face {
@@ -477,4 +485,5 @@ h1 {
   }
 }
 
+//Import responsive.scss
 @import "responsive";
