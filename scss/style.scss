@@ -235,7 +235,8 @@ h1 {
     height: 337px;
     background-color: #374252;
     background-size: 100%;
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: #25bea1;
       .case-study-content .figures {
         display: block;
