@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 
-@import "responsive";
-
 @font-face {
   font-family: AGaramondPro-Italic;
   src: url("fonts/AGaramondPro-Italic.otf") format("opentype");
@@ -19,7 +17,7 @@ h1 {
 .jumbotron {
   padding-top: 0;
   margin-bottom: 0;
-  height: 547px;
+  min-height: 547px;
   background-image: url('images/hero_image.png');
   background-size: 100%;
   color: #fff;
@@ -115,7 +113,7 @@ h1 {
   .row {
     padding: 0 50px 50px 50px;
   }
-  .col-sm-6 {
+  .col-md-6 {
     padding: 0 50px;
     h2 {
       color: #fff;
@@ -174,7 +172,7 @@ h1 {
     border-radius: 100px;
     margin-bottom: 15px;
     padding: 0 50px;
-    height: 118px;
+    min-height: 118px;
     border-color: #dedfdf;
     color: #dedfdf;
     cursor: pointer;
@@ -205,6 +203,7 @@ h1 {
     }
     &.block-5 {
       width: 525px;
+      max-width: 100%;
     }
     h2 {
       font-family: 'Karla';
@@ -386,9 +385,10 @@ h1 {
       margin-left: 50px;
       padding: 0;
       .contact-address {
-        margin-top: 65px;
+        padding-top: 65px;
       }
       .contact-extra {
+        word-break: break-all;
         margin-top: 71px;
         padding-bottom: 8px;
         border-bottom: 2px solid #25bea1;
@@ -427,7 +427,7 @@ h1 {
   }
   .footer-menu {
     background-color: #2c3542;
-    height: 50px;
+    min-height: 50px;
     color: #fff;
     font-family: 'Karla';
     font-size: 12px;
@@ -469,3 +469,5 @@ h1 {
     }
   }
 }
+
+@import "responsive";

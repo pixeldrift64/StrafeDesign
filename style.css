@@ -11,7 +11,7 @@ h1 {
 .jumbotron {
   padding-top: 0;
   margin-bottom: 0;
-  height: 547px;
+  min-height: 547px;
   background-image: url("images/hero_image.png");
   background-size: 100%;
   color: #fff;
@@ -91,34 +91,34 @@ h1 {
     margin-bottom: 50px; }
   .section-services .row {
     padding: 0 50px 50px 50px; }
-  .section-services .col-sm-6 {
+  .section-services .col-md-6 {
     padding: 0 50px; }
-    .section-services .col-sm-6 h2 {
+    .section-services .col-md-6 h2 {
       color: #fff;
       font-family: 'Karla';
       text-transform: uppercase;
       padding-top: 3px; }
-    .section-services .col-sm-6 p {
+    .section-services .col-md-6 p {
       padding-top: 20px;
       font-size: 16px;
       letter-spacing: 0.5px;
       color: #fff; }
-    .section-services .col-sm-6 div {
+    .section-services .col-md-6 div {
       padding: 0px 0px 0px 85px;
       font-family: 'AGaramondPro-Regular'; }
-    .section-services .col-sm-6 .services-one {
+    .section-services .col-md-6 .services-one {
       background: url("images/services_one.png");
       background-repeat: no-repeat;
       background-size: 100%; }
-    .section-services .col-sm-6 .services-two {
+    .section-services .col-md-6 .services-two {
       background: url("images/services_two.png");
       background-repeat: no-repeat;
       background-size: 100%; }
-    .section-services .col-sm-6 .services-three {
+    .section-services .col-md-6 .services-three {
       background: url("images/services_three.png");
       background-repeat: no-repeat;
       background-size: 100%; }
-    .section-services .col-sm-6 .services-four {
+    .section-services .col-md-6 .services-four {
       background: url("images/services_four.png");
       background-repeat: no-repeat;
       background-size: 100%; }
@@ -138,7 +138,7 @@ h1 {
   border-radius: 100px;
   margin-bottom: 15px;
   padding: 0 50px;
-  height: 118px;
+  min-height: 118px;
   border-color: #dedfdf;
   color: #dedfdf;
   cursor: pointer; }
@@ -161,7 +161,8 @@ h1 {
     width: 625px;
     max-width: 100%; }
   .section-how-it-works .rounded-block.block-5 {
-    width: 525px; }
+    width: 525px;
+    max-width: 100%; }
   .section-how-it-works .rounded-block h2 {
     font-family: 'Karla';
     text-transform: uppercase;
@@ -309,8 +310,9 @@ h1 {
       margin-left: 50px;
       padding: 0; }
       .section-contact .contact-details .col-content .contact-address {
-        margin-top: 65px; }
+        padding-top: 65px; }
       .section-contact .contact-details .col-content .contact-extra {
+        word-break: break-all;
         margin-top: 71px;
         padding-bottom: 8px;
         border-bottom: 2px solid #25bea1; }
@@ -338,7 +340,7 @@ h1 {
         margin-right: 10px; }
   .section-footer .footer-menu {
     background-color: #2c3542;
-    height: 50px;
+    min-height: 50px;
     color: #fff;
     font-family: 'Karla';
     font-size: 12px;
@@ -369,5 +371,59 @@ h1 {
           color: #25bea1; }
         .section-footer .footer-menu .menu ul li a {
           color: #fff; }
+
+@media screen and (max-width: 1200px) {
+  .jumbotron nav.navbar ul.nav {
+    margin-left: 0; }
+
+  .section-services .col-md-6 h2, .section-services .col-md-6 p {
+    padding-top: 0; }
+
+  .section-case-studies .col-md-6 {
+    height: 300px; }
+    .section-case-studies .col-md-6 .case-study-content .figures p {
+      font-size: 16px; } }
+@media screen and (max-width: 992px) {
+  .section-services .col-md-6 h2,
+  .section-services .col-md-6 p {
+    padding-top: 16px; }
+
+  .section-footer .footer-menu .menu ul {
+    float: left;
+    padding: 0; }
+    .section-footer .footer-menu .menu ul li {
+      margin: 0 15px 0 0; } }
+@media screen and (max-width: 768px) {
+  .section-services .col-md-6 h2 {
+    padding-top: 0; }
+  .section-services .col-md-6 p {
+    padding-top: 10px; }
+
+  .section-how-it-works .rounded-block {
+    border-radius: 25px;
+    padding: 25px 50px; }
+    .section-how-it-works .rounded-block .col-sm-8 p {
+      text-align: center; }
+
+  .section-case-studies .col-md-6 .case-study-content .figures p {
+    text-align: center; }
+
+  .section-contact .contact-details .col-content {
+    margin-left: 0; }
+    .section-contact .contact-details .col-content .contact-address {
+      margin-top: 0; }
+  .section-contact .contact-form .col-content {
+    margin-right: 8px; } }
+@media screen and (max-width: 550px) {
+  .section-services .col-md-6 {
+    padding: 0; }
+    .section-services .col-md-6 div {
+      padding: 0;
+      background: none !important; }
+    .section-services .col-md-6 h2 {
+      padding-top: 0;
+      border-bottom: 2px solid #25bea1; }
+    .section-services .col-md-6 p {
+      padding-top: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
