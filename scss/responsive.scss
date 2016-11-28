@@ -57,8 +57,11 @@
 @media screen and (max-width: 769px) {
 
   .section-services .col-md-6 {
+    div {
+      background-size: 500px!important;
+    }
     h2 {
-      padding-top: 0;
+      padding-top: 10px;
     }
     p {
       padding-top: 10px;
@@ -93,6 +96,10 @@
 
 @media screen and (max-width: 550px) {
 
+  .jumbotron h1 {
+    margin-top: 75px;
+  }
+
   .section-services .col-md-6 {
     padding: 0;
     div {
@@ -106,6 +113,10 @@
     p {
       padding-top: 10px;
     }
+  }
+
+  .section-contact .contact-details h2 {
+    font-size: 20px;
   }
 
 }
