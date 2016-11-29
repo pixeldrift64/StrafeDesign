@@ -308,7 +308,7 @@ h1 {
         font-family: 'Karla';
         font-weight: bold;
         text-transform: uppercase;
-        font-size: 30px; }
+        font-size: 29px; }
   .section-contact .contact-details {
     background-color: #374252;
     height: 375px; }
@@ -320,12 +320,12 @@ h1 {
       text-transform: uppercase;
       margin: 0; }
     .section-contact .contact-details .col-content {
+      width: auto;
       margin-left: 50px;
       padding: 0; }
       .section-contact .contact-details .col-content .contact-address {
         padding-top: 65px; }
       .section-contact .contact-details .col-content .contact-extra {
-        word-break: break-all;
         margin-top: 71px;
         padding-bottom: 8px;
         border-bottom: 2px solid #25bea1; }
@@ -428,6 +428,11 @@ h1 {
     .section-services .col-md-6 h2, .section-services .col-md-6 p {
       padding-top: 16px; }
 
+  .section-contact .contact-extra {
+    word-break: break-all; }
+    .section-contact .contact-extra h2 {
+      font-size: 24px; }
+
   .section-footer .footer-menu .menu ul {
     float: left;
     padding: 0; }
@@ -452,6 +457,8 @@ h1 {
 
   .section-contact .contact-details .col-content {
     margin-left: 0; }
+    .section-contact .contact-details .col-content h2 {
+      font-size: 20px; }
     .section-contact .contact-details .col-content .contact-address {
       margin-top: 0; }
   .section-contact .contact-form .col-content {

@@ -381,7 +381,7 @@ h1 {
         font-family: 'Karla';
         font-weight: bold;
         text-transform: uppercase;
-        font-size: 30px;
+        font-size: 29px;
       }
     }
   }
@@ -397,13 +397,13 @@ h1 {
       margin: 0;
     }
     .col-content {
+      width: auto;
       margin-left: 50px;
       padding: 0;
       .contact-address {
         padding-top: 65px;
       }
       .contact-extra {
-        word-break: break-all;
         margin-top: 71px;
         padding-bottom: 8px;
         border-bottom: 2px solid #25bea1;
