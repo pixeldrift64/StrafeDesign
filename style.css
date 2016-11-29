@@ -198,6 +198,8 @@ h1 {
   height: 337px;
   background-color: #374252;
   background-size: 100%; }
+  .section-case-studies .col-md-6:hover {
+    cursor: pointer; }
   .section-case-studies .col-md-6:hover, .section-case-studies .col-md-6:active, .section-case-studies .col-md-6:focus, .section-case-studies .col-md-6.active {
     background-color: #25bea1; }
     .section-case-studies .col-md-6:hover .case-study-content .figures, .section-case-studies .col-md-6:active .case-study-content .figures, .section-case-studies .col-md-6:focus .case-study-content .figures, .section-case-studies .col-md-6.active .case-study-content .figures {
