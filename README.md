@@ -9,7 +9,11 @@ This was a lot of fun to create, using the Google Maps API which I hadn't before
 
 ###Technologies used
 [Bootstrap v3](http://getbootstrap.com/)
+
 [Sass: Syntactically Awesome Style Sheets](http://sass-lang.com)
+
 [jQuery](http://jquery.com)
+
 [Google Maps API](https://developers.google.com/maps/web/)
+
 [Git SCM](https://git-scm.com/)
