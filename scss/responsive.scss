@@ -1,13 +1,22 @@
 /**
  * responsive.scss
  *
- * A few responsive fixes for the strafe one page design 
+ * A few responsive fixes for the strafe one page design
  */
+
+@media screen and (min-width: 1200px) {
+
+  .section-case-studies .col-md-6 {
+    height: 500px;
+  }
+
+}
 
 @media screen and (max-width: 1200px) {
 
   .jumbotron {
     background-position: center bottom;
+    background-attachment: initial;
     nav.navbar ul.nav {
       margin-left: 0;
     }
@@ -29,6 +38,14 @@
 }
 
 @media screen and (max-width: 992px) {
+
+  .jumbotron .container {
+    width: 100%;
+  }
+
+  .jumbotron nav.navbar ul.nav a {
+    margin: 6px 0px;
+  }
 
   .navbar-collapse {
     border: 0;
