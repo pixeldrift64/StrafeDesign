@@ -474,12 +474,18 @@ h1 {
           position: relative;
           top: 50%;
           transform: translateY(-50%);
+          padding-bottom: 1px;
+          &:hover {
+            padding-bottom: 0;
+            border-bottom: 1px solid #25bea1;
+          }
           b {
             margin: 0 0 0 3px;
             color: #25bea1;
           }
           a {
             color: #fff;
+            text-decoration: none;
           }
         }
       }

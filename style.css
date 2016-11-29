@@ -380,19 +380,24 @@ h1 {
         list-style-type: none;
         position: relative;
         top: 50%;
-        transform: translateY(-50%); }
+        transform: translateY(-50%);
+        padding-bottom: 1px; }
+        .section-footer .footer-menu .menu ul li:hover {
+          padding-bottom: 0;
+          border-bottom: 1px solid #25bea1; }
         .section-footer .footer-menu .menu ul li b {
           margin: 0 0 0 3px;
           color: #25bea1; }
         .section-footer .footer-menu .menu ul li a {
-          color: #fff; }
+          color: #fff;
+          text-decoration: none; }
 
 /**
  * responsive.scss
  *
  * A few responsive fixes for the strafe one page design
  */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
   .section-case-studies .col-md-6 {
     height: 500px; }
     .section-case-studies .col-md-6 .case-study-content .figures p {
